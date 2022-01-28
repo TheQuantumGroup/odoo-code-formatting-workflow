@@ -5,4 +5,4 @@ def say_hello(name):
     return s
 
 say_hello(name)
-say_hello(name)
+say_hello("Felix Otoo")
