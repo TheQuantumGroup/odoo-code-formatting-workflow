@@ -1,5 +1,12 @@
 name: Format Code
-on: [pull_request]
+on: 
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - edited
+      - synchronize
 jobs:
   format-and-lint-code:
     runs-on: ubuntu-latest
